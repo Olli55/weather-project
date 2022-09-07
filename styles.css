@@ -1,0 +1,133 @@
+h1 {
+  color: #174ea6;
+  text-align: center;
+  display: block;
+}
+
+.remember-city {
+  margin: 10px 4px 10px 40px;
+  background-color: #f2eff4;
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 40px;
+  padding: 2px 24px;
+  transition: all 200ms ease;
+}
+.location-button {
+  margin: 10px auto 10px 0;
+  background-color: #f2eff4;
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 40px;
+  padding: 2px 24px;
+  transition: all 200ms ease;
+}
+.remember-city:hover,
+.location-button:hover {
+  color: black;
+}
+
+input.form-control {
+  margin-left: 30px;
+}
+h5.card-title {
+  font-size: 15px;
+}
+
+p.card-text {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: "AmstelvarAlpha";
+}
+
+h4 {
+  margin: 20px auto 0 200px;
+  font-size: 19px;
+  color: #6c757d;
+  font-family: italic;
+}
+
+h2 {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.card-body {
+  text-align: center;
+}
+div.card {
+  position: fixed;
+  top: 96px;
+  right: 30px;
+}
+p.current-emoji {
+  position: absolute;
+  top: 195px;
+  left: 148px;
+}
+
+.temperature {
+  font-size: 26px;
+  font-weight: bold;
+  border: 1px solid;
+  width: 135px;
+  height: 135px;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 220px;
+  left: 185px;
+  background-color: white;
+}
+
+.now-temp {
+  margin: 0;
+}
+
+h2.current-weekday {
+  position: relative;
+  top: -145px;
+  left: 313px;
+}
+
+div.container {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+div.row {
+  margin: 20px auto;
+}
+
+span.thursday {
+  border: 1px solid;
+  padding: 5px 17px;
+}
+span.friday {
+  border: 1px solid;
+  padding: 5px 30px;
+}
+span.saturday {
+  border: 1px solid;
+  padding: 5px 20px;
+}
+span.sunday {
+  border: 1px solid;
+  padding: 5px 25px;
+}
+span.monday {
+  border: 1px solid;
+  padding: 5px 22px;
+}
+span.tuesday {
+  border: 1px solid;
+  padding: 5px 22px;
+}
+span.wednesday {
+  border: 1px solid;
+  padding: 5px 10px;
+}

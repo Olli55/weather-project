@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Weather</h1>
+    <div class="search">
+      <button class="remember-city">Do you want to remember this city?</button>
+      <button class="location-button" id="my-location">My location</button>
+      <form id="search-city">
+        <div class="row" id="form-city">
+          <div class="col-7">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search city"
+              autocomplete="on"
+              id="city-input"
+            />
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-secondary">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="card" style="width: 9rem">
+      <div class="card-body">
+        <h5 class="card-title">My cities</h5>
+
+        <p class="card-text">
+          <em> Kyiv </em>
+        </p>
+        <p class="card-text">
+          <em> Lviv </em>
+        </p>
+        <p class="card-text">
+          <em> London </em>
+        </p>
+        <p class="card-text">
+          <br />
+        </p>
+        <p class="card-text">
+          <br />
+        </p>
+      </div>
+    </div>
+    <h4>
+      <em>Current</em>
+    </h4>
+    <h2 id="search-info">
+      Kyiv
+      <br />
+      <br />
+      0 m/s
+    </h2>
+
+    <p class="current-emoji">
+      <img
+        src="https://hotemoji.com/images/dl/d/sun-behind-rain-cloud-emoji-by-google.png"
+        alt="current-emoji"
+        width="210"
+      />
+    </p>
+
+    <div class="temperature">
+      <p class="now-temp" id="current-temperature">20</p>
+      <span class="degrees">
+        <button type="text" class="btn btn-link" id="celsius">℃</button>|
+        <button type="text" class="btn btn-link" id="fahrenheit">F</button>
+      </span>
+    </div>
+
+    <h2 class="current-weekday" id="current-data">Day Time</h2>
+
+    <div class="container">
+      <strong>
+        <div class="row">
+          <div class="col">
+            <span class="thursday"> Thursday </span>
+          </div>
+
+          <div class="col">28 ℃</div>
+          <div class="col">17 ℃</div>
+          <div class="col">☀</div>
+        </div>
+      </strong>
+      <div class="row">
+        <div class="col">
+          <span class="friday"> Friday </span>
+        </div>
+        <div class="col">29 ℃</div>
+        <div class="col">15 ℃</div>
+        <div class="col">☀</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <span class="saturday"> Saturday </span>
+        </div>
+        <div class="col">29 ℃</div>
+        <div class="col">17 ℃</div>
+        <div class="col">🌥</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <span class="sunday"> Sunday </span>
+        </div>
+        <div class="col">31 ℃</div>
+        <div class="col">18 ℃</div>
+        <div class="col">☁</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <span class="monday"> Monday </span>
+        </div>
+        <div class="col">28 ℃</div>
+        <div class="col">19 ℃</div>
+        <div class="col">🌩</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <span class="tuesday"> Tuesday </span>
+        </div>
+        <div class="col">30 ℃</div>
+        <div class="col">18 ℃</div>
+        <div class="col">☁</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <span class="wednesday"> Wednesday </span>
+        </div>
+        <div class="col">31 ℃</div>
+        <div class="col">19 ℃</div>
+        <div class="col">☀</div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
